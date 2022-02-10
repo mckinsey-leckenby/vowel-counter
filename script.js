@@ -10,7 +10,7 @@ function countVowel() {
     
     for (let i = 0; i < wordValue.length; i++) {
         let letter = wordValue[i];
-        if (letter.match("([a, e, i, o, u])")) {
+        if (letter.match("([a,e,i,o,u])")) {
             vowelCount++;
 
         }
